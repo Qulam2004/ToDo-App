@@ -1,0 +1,105 @@
+.container{
+    margin: auto;
+    width: 36%;
+}
+
+body{
+    background-image: url(gettyimages-157373207-612x612.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: auto;
+}
+
+.header, .form-todo {
+    min-height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bar{
+    padding: .6rem;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: red;
+}
+
+.add-to{
+    cursor: pointer;
+}
+
+.add-to:hover{
+    background-color: white;
+}
+
+
+
+
+.vezife-btn{
+    outline:none;
+    border:none;
+    font-size: 2.4rem;
+    padding: 0.5rem;
+    background-color: rgba(127, 140, 141,1.0);;
+}
+
+.vezife-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: rgb(153, 131, 131);
+    transition: .5s ease-in-out;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    min-width: 25rem;
+}
+
+.vezife-li{
+    flex: 1;
+}
+
+.item-container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+}
+
+.elaveet-btn{
+    cursor: pointer;
+}
+
+.elaveet-btn:hover{
+    background-color: white;
+}
+
+.vezife-btn-tamamlandi{
+    color:green;
+}
+
+.vezife-btn-silindi{
+    color: red;
+}
+
+.vezife-tamamlandi{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.vezife-silindi{
+    transform: rotate(360deg)scale(0);
+}
+
+.fa {
+    pointer-events: none;
+}
+
+.fas {
+    pointer-events: none;
+}
